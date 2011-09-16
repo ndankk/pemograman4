@@ -179,3 +179,41 @@ Date:   Fri Sep 16 13:50:00 2011 +0700
 D:\P4\latihan-git-1>
 
 
+D:\P4\latihan-git-1>git add pertemuaan1.txt
+
+D:\P4\latihan-git-1>git commit -m pertemuaan1.txt
+[master 01a3514] pertemuaan1.txt
+ 1 files changed, 57 insertions(+), 0 deletions(-)
+
+D:\P4\latihan-git-1>git log
+
+
+
+
+
+commit 01a3514f8b1b2376a6256df468d582bebf7910f2
+Author: nanda <ndeenx@gmail.com>
+Date:   Fri Sep 16 13:59:28 2011 +0700
+
+    pertemuaan1.txt
+
+commit 71dc9098a1130c3a0c9c784163220bae64728322
+Author: nanda <ndeenx@gmail.com>
+Date:   Fri Sep 16 13:56:49 2011 +0700
+
+    pertemuaan1.txt
+
+commit 60dc4055fa5e25c7ab7060e288c677a52399b756
+Author: nanda <ndeenx@gmail.com>
+Date:   Fri Sep 16 13:54:16 2011 +0700
+
+    pertemuaan1.txt
+
+commit 3f56adc157c9b2767fb81e1211fb586c9b72dfee
+Author: unknown <ndankk@.(none)>
+Date:   Fri Sep 16 13:50:00 2011 +0700
+
+    pertemuaan1.txt
+
+D:\P4\latihan-git-1>
+
