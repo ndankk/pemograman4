@@ -1,0 +1,205 @@
+Microsoft Windows XP [Version 5.1.2600]
+(C) Copyright 1985-2001 Microsoft Corp.
+
+C:\Documents and Settings\ndankk>git
+usage: git [--version] [--exec-path[=<path>]] [--html-path] [--man-path] [--info
+-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects]
+           [--bare] [--git-dir=<path>] [--work-tree=<path>]
+           [-c name=value] [--help]
+           <command> [<args>]
+
+The most commonly used git commands are:
+   add        Add file contents to the index
+   bisect     Find by binary search the change that introduced a bug
+   branch     List, create, or delete branches
+   checkout   Checkout a branch or paths to the working tree
+   clone      Clone a repository into a new directory
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   fetch      Download objects and refs from another repository
+   grep       Print lines matching a pattern
+   init       Create an empty git repository or reinitialize an existing one
+   log        Show commit logs
+   merge      Join two or more development histories together
+   mv         Move or rename a file, a directory, or a symlink
+   pull       Fetch from and merge with another repository or a local branch
+   push       Update remote refs along with associated objects
+   rebase     Forward-port local commits to the updated upstream head
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+   show       Show various types of objects
+   status     Show the working tree status
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+See 'git help <command>' for more information on a specific command.
+
+C:\Documents and Settings\ndankk>cd d:P4/latihan-git
+
+C:\Documents and Settings\ndankk>cd D:
+D:\P4\latihan-git
+
+C:\Documents and Settings\ndankk>cd D:
+D:\P4\latihan-git
+
+C:\Documents and Settings\ndankk>D:
+
+D:\P4\latihan-git>git init
+Initialized empty Git repository in D:/P4/latihan-git/.git/
+
+D:\P4\latihan-git>git status
+# On branch master
+#
+# Initial commit
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#       latihan-git.txt
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\P4\latihan-git>git add latihan-git.txt
+
+D:\P4\latihan-git>git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#       new file:   latihan-git.txt
+#
+
+D:\P4\latihan-git>git commit -m "ini commit pertama"
+[master (root-commit) 0afe8e2] ini commit pertama
+ Committer: unknown <ndankk@.(none)>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 files changed, 2 insertions(+), 0 deletions(-)
+ create mode 100644 latihan-git.txt
+
+D:\P4\latihan-git>git look
+git: 'look' is not a git command. See 'git --help'.
+
+Did you mean this?
+        clone
+
+D:\P4\latihan-git>git log
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit 0afe8e25690431c854aabeaf1a08b7362ac99dc5
+Author: unknown <ndankk@.(none)>
+Date:   Fri Sep 16 11:19:25 2011 +0700
+
+    ini commit pertama
+
+D:\P4\latihan-git>git config user.name "nanda aditya"
+
+D:\P4\latihan-git>git config user.email ndeenx@gmail.com
+
+D:\P4\latihan-git>git log
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit 0afe8e25690431c854aabeaf1a08b7362ac99dc5
+Author: unknown <ndankk@.(none)>
+Date:   Fri Sep 16 11:19:25 2011 +0700
+
+    ini commit pertama
+
+D:\P4\latihan-git>git add latihan-git.txt
+
+D:\P4\latihan-git>git add latihan-git.txt
+
+D:\P4\latihan-git>git commit -m "ini commit kedua"
+[master 68de8a3] ini commit kedua
+ 1 files changed, 4 insertions(+), 1 deletions(-)
+
+D:\P4\latihan-git>git log
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit 68de8a34ea02c26cd5d550a4ecebddd13e694584
+Author: nanda aditya <ndeenx@gmail.com>
+Date:   Fri Sep 16 11:28:45 2011 +0700
+
+    ini commit kedua
+
+commit 0afe8e25690431c854aabeaf1a08b7362ac99dc5
+Author: unknown <ndankk@.(none)>
+Date:   Fri Sep 16 11:19:25 2011 +0700
+
+    ini commit pertama
+
+D:\P4\latihan-git>
