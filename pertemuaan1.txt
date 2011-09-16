@@ -203,3 +203,13 @@ Date:   Fri Sep 16 11:19:25 2011 +0700
     ini commit pertama
 
 D:\P4\latihan-git>
+
+*buat repo
+"git init"
+*buat config user ma email
+git config user.name "you"
+git config user.email you@exsample
+*buat daftarkan file
+git add (nama fille)
+*buat simpan
+git commit -m (nama file)
