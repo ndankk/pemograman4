@@ -121,4 +121,61 @@ D:\P4\latihan-git-1>
 
 
 
+D:\P4\latihan-git-1>git status
+# On branch master
+nothing to commit (working directory clean)
+
+D:\P4\latihan-git-1>git add pertemuaan1.txt
+
+D:\P4\latihan-git-1>git log
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit 71dc9098a1130c3a0c9c784163220bae64728322
+Author: nanda <ndeenx@gmail.com>
+Date:   Fri Sep 16 13:56:49 2011 +0700
+
+    pertemuaan1.txt
+
+commit 60dc4055fa5e25c7ab7060e288c677a52399b756
+Author: nanda <ndeenx@gmail.com>
+Date:   Fri Sep 16 13:54:16 2011 +0700
+
+    pertemuaan1.txt
+
+commit 3f56adc157c9b2767fb81e1211fb586c9b72dfee
+Author: unknown <ndankk@.(none)>
+Date:   Fri Sep 16 13:50:00 2011 +0700
+
+    pertemuaan1.txt
+
+D:\P4\latihan-git-1>
+
 
